@@ -1,0 +1,20 @@
+.grid-auto-fit{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+}
+.animate-loader{
+    position: relative;
+    overflow: hidden;
+    height: 15px;
+    background: linear-gradient(to right,#bb78fad8,#ffffff,deepskyblue);
+    animation : loader 2s linear infinite;
+}
+
+@keyframes loader {
+    0%{
+         background-position: -800px;
+    }
+    100%{
+        background-position: 800px;
+    }
+}
