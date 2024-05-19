@@ -27,8 +27,8 @@ const Input = () => {
     inputTag.current.focus()
   }, []);
   return (
-    <div className='w-full sm:min-w-[75%] sm:max-w-[80%] bg-secondary rounded-full px-4 py-2 flex items-center shadow shadow-gray-300'>
-      <input value={userInput} onChange={(e) => setUserInput(e.target.value)} ref={inputTag} type="text" className='input-text w-full outline-none bg-transparent' placeholder='Enter a prompt here' readOnly={(isLoading)?true:false} />
+    <div className='w-full sm:min-w-[75%] sm:max-w-[80%] bg-secondary rounded-full px-4 flex items-center shadow shadow-gray-300'>
+      <input value={userInput} onChange={(e) => setUserInput(e.target.value)} ref={inputTag} type="text" className='input-text py-4 w-full outline-none bg-transparent' placeholder='Enter a prompt here' readOnly={(isLoading)?true:false} />
       <div className="input-icons flex items-center gap-2 cursor-default sm:cursor-pointer">
         <div className="image-plus w-fit text-2xl md:text-3xl p-2 rounded-full hover:bg-primary">
           <LuImagePlus />

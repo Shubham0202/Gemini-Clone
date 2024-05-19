@@ -21,7 +21,6 @@ const Output = () => {
         const voices = speechSynthesis.getVoices();
         voice.voice = voices[3]
         if (!isSpeak && !synth.paused) {
-            console.log("play")
             setIsSpeak(true);
             voice.onend = () => setIsSpeak(false);
             synth.speak(voice);
