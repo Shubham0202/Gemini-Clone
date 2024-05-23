@@ -14,11 +14,11 @@ const Welcome = () => {
       icon: <BiBulb/>
     },
     {
-      text: 'what is html ?',
+      text: 'what is gemini?',
       icon: <BiCode/>
     },
     {
-      text: 'what is html ?',
+      text: 'what is React ?',
       icon: <BiCode/>
     },
   ]

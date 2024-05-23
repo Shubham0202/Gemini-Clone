@@ -11,7 +11,7 @@ const Recent = ({isActiveFunction = false,firstIcon,lastIcon,text="No Text",isac
     function handleRecentClick(e)
     {
         const search = e.target.innerText.toLowerCase();
-        const res = prevPrompts.find(item=>item.title ==search)
+        const res = prevPrompts.find(item=>item.title.toLowerCase() ==search)
         // console.log(res);
         
         const title = res.title;
