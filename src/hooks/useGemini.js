@@ -5,10 +5,9 @@
 
 import { GoogleGenerativeAI, HarmCategory, HarmBlockThreshold } from "@google/generative-ai";
 import { useCallback, useEffect, useState } from "react";
-// AIzaSyAYx8dp5C39ulSyJOjqTu9xrjkr9QWi9ks
 
   const MODEL_NAME = "gemini-1.5-pro-latest";
-  const API_KEY = "AIzaSyAYx8dp5C39ulSyJOjqTu9xrjkr9QWi9ks";
+  const API_KEY = "YOUR_API_KEY";
   
  export default async function runWithDelay() {
     const genAI = new GoogleGenerativeAI(API_KEY);
