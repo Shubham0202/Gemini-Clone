@@ -10,7 +10,7 @@ const Welcome = () => {
     },
     {
 
-      text:'Teach me the concept of game theory in simple terms. Include real-world examples to illustrate key concepts, and how they have played out in industry.',
+      text:'I have an orchid and Im not sure how to care for it. Can you give me some tips?.',
       icon: <BiBulb/>
     },
     {
