@@ -80,13 +80,13 @@ The Gemini Clone Project is a web application designed to replicate the function
    cd gemini-clone
 2. **Install Dependencies**:
    ```sh
-  npm install
+   npm install
 
 4. **Run the Application**:
    ```sh
    npm run dev
 6. **Access the Application**:
-   Open your browser and navigate to `localhost:5173`
+   Open your browser and navigate to ```sh localhost:5173
 
 # Conclusion
 The Gemini Clone Project is a comprehensive project that covers a wide range of frontend development skills and concepts. By working on this project, developers can gain valuable experience in building real-world applications, integrating APIs, and enhancing user interactions with text-to-speech functionality. This project not only enhances technical skills but also provides a deeper understanding of how conversational AI platforms operate and how to make web applications more accessible.
