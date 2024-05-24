@@ -76,7 +76,7 @@ The Gemini Clone Project is a web application designed to replicate the function
 
 1. **Clone the Repository**:
    ```sh
-   git clone https://github.com/yourusername/gemini-clone.git
+   https://github.com/Shubham0202/Gemini-Clone.git
    cd gemini-clone
 2. **Install Dependencies**:
    ```sh
