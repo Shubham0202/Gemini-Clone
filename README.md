@@ -79,11 +79,13 @@ The Gemini Clone Project is a web application designed to replicate the function
    git clone https://github.com/yourusername/gemini-clone.git
    cd gemini-clone
 2. **Install Dependencies**:
+   ```sh
   npm install
 
-3. **Run the Application**:
-  npm run dev
-4. **Access the Application**:
+4. **Run the Application**:
+   ```sh
+   npm run dev
+6. **Access the Application**:
    Open your browser and navigate to `localhost:5173`
 
 # Conclusion
